@@ -3,6 +3,14 @@
 This folder contains the source code for the Android testing codelab. It gives an introduction into testing on Android, including unit tests and UI tests.
 https://codelabs.developers.google.com/codelabs/android-testing/
 
+what testing framework you used and why?
+
+Some of the testing frameworks used were Robolectric which allows the running of  instrumentation test on the JVM instead of a real or virtual device. The androidx test libraries which try to connect local testing and instrumentation testing, which includes the JUnit as the test runner. Also there is Espress  testing framework for integration test.
+
+What type of tests were performed(unit, functional or Ui)?
+
+There is the Unit test which are test on run on a single class or method and when it fails you should know know where it failed from the test, it is run on the JVM and does not need to use a device or emulator. There also Integration testing which test several classes and the interaction between them and this does need a device or emulator to run. Last there are End-to-End test which test large portions of the app by testing combinations of features you implemented they are longer and also require a emulator or device.
+
 ### License
 
 
